@@ -1,0 +1,17 @@
+/* Reverse Polish Notation calculator. */
+%{
+    #include <stdio.h>
+    #include  <math.h>
+    int yylex (void);
+    void yyerror(char const *);
+%}
+
+
+
+%define api.value.type {double}
+%token NUM
+
+%% 
+    
+
+%%
